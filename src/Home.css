@@ -1,10 +1,15 @@
 .Home {
+    height: 100%;
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    margin: 3px 0;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
 .Home-img {
+    align-self: center;
     width: 175px;
     height: 413px;
     border: 1px solid black;
@@ -13,13 +18,11 @@
     filter: grayscale(100%);
     background-repeat: no-repeat;
     margin: 2px;
-    padding: 0;
     box-shadow: 5px 10px 8px #888888;
 }
 
 .Home-img.Plastic {
     background-image: radial-gradient(circle, #F1E5DF 0%, #78B1BF 100%);
-    align-self: flex-start;
 }
 
 .Home-img.Organic {

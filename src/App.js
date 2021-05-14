@@ -14,16 +14,18 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/PlasticBin" component={PlasticBin}></Route>
-          <Route exact path="/OrganicBin" component={OrganicBin}></Route>
-          <Route exact path="/GlassBin" component={GlassBin}></Route>
-          <Route exact path='/PaperBin' component={PaperBin}></Route>
-          <Route exact path='/MetalBin' component={MetalBin}></Route>
-          <Route exact path='/EWasteBin' component={EWasteBin}></Route>
-        </Switch>        
+        <div className="App-center">
+          <Header />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/PlasticBin" component={PlasticBin}></Route>
+            <Route exact path="/OrganicBin" component={OrganicBin}></Route>
+            <Route exact path="/GlassBin" component={GlassBin}></Route>
+            <Route exact path='/PaperBin' component={PaperBin}></Route>
+            <Route exact path='/MetalBin' component={MetalBin}></Route>
+            <Route exact path='/EWasteBin' component={EWasteBin}></Route>
+          </Switch>
+        </div>
       </div>
     );
   }
