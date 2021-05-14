@@ -1,0 +1,31 @@
+.Metal-bin {
+    background-image: url('./img/background-metal.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 3px 0;
+}
+
+.Metal-text {
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+}
+.Metal-text ul {
+    margin: 0;
+}
+
+.Metal-text ul li {
+    background-color: white;
+    opacity: 0.8;
+    margin: 2px 0;
+}
+
+.Metal-first-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}

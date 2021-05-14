@@ -1,0 +1,38 @@
+.Header {
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+    background-color: #68A0B0;
+    height: 30px;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.Header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+
+.Header-link {
+    color: white;
+    background: #483248;
+    box-shadow: 4px 4px 2px #888888;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 1px;
+    align-self: center;
+}
+
+.Header-link:hover {
+    color: black;
+    background-color: #F4C430;
+    font-size: 16px;
+    transition: font-size 0.3s ease-in-out;
+}
+
+.Header-active-link {
+    color: black;
+    background-color: #F4C430;
+    font-size: 16px;
+}

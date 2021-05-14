@@ -1,0 +1,49 @@
+.Home {
+    display: flex;
+    flex-direction: row;
+    margin: 3px 0;
+}
+
+.Home-img {
+    width: 175px;
+    height: 413px;
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    background-repeat: no-repeat;
+    margin: 2px;
+    padding: 0;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.Home-img.Plastic {
+    background-image: radial-gradient(circle, #F1E5DF 0%, #78B1BF 100%);
+    align-self: flex-start;
+}
+
+.Home-img.Organic {
+    background-image: radial-gradient(circle, #FCD5A4 0%, #78184A 100%);
+}
+
+.Home-img.Metal {
+    background-image: radial-gradient(circle, #FAFA33 0%, #68A0B0 100%);
+}
+
+.Home-img.Paper {
+    background-image: radial-gradient(circle, #000080 0%, #ff6666 100%);
+}
+
+.Home-img.Glass {
+    background-image: radial-gradient(circle, #FFA500 0%, #D8BFD8 100%);
+}
+
+.Home-img.EWaste {
+    background-image: radial-gradient(circle, #FAFA33 0%, #9B111E 100%);
+}
+
+.Home-img:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    transition: filter 0.7s ease-in-out;
+}
